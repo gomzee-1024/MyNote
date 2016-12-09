@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="myNoteApp">
+    <head>
+        <title>My Note</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/angular-material.min.css"/>
+        <script src="js/libs/angular.js" type="text/javascript"></script>
+        <script src="js/libs/angular-material.min.js" type="text/javascript"></script>
+        <script src="js/libs/angular-route.min.js" type="text/javascript"></script>
+        <script src="js/libs/angular-animate.min.js" type="text/javascript"></script>
+        <script src="js/libs/angular-aria.min.js" type="text/javascript"></script>
+        <script src="js/libs/angular-resourse.min.js" type="text/javascript"></script>
+        <script src="js/MyNoteController.js" type="text/javascript"></script>
+    </head>
+    <body ng-controller="MyNoteController">
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings" >
+                <md-icon md-svg-icon="img/menu.svg"></md-icon>
+            </md-button>
+            <h2>
+                <span>MyNote</span>
+            </h2>
+        </div>
+    </md-toolbar>
+</body>
+</html>
